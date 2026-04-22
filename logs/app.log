@@ -1,0 +1,112 @@
+2026-04-14 15:56:18,992 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2026-04-14 15:56:18,992 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-14 15:56:25,883 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2026-04-14 15:56:25,883 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-14 15:57:46,077 | INFO | smartspend.app | Request started | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | method=POST | path=/ai/advice | ip=192.168.0.11
+2026-04-14 15:57:46,077 | INFO | smartspend.app | Request started | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | method=POST | path=/ai/advice | ip=192.168.0.11
+2026-04-14 15:57:46,553 | INFO | smartspend.audit | AI_REQUEST | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | email=anaszhumabay@gmail.com | question=What is my biggest spending risk? | top_category=Other | savings_rate=0 | recurring_total=0.0
+2026-04-14 15:57:54,150 | INFO | smartspend.audit | AI_RESPONSE | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | reply_length=521
+2026-04-14 15:57:54,152 | INFO | smartspend.app | Request finished | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | method=POST | path=/ai/advice | status=200 | duration_ms=8074
+2026-04-14 15:57:54,152 | INFO | smartspend.app | Request finished | request_id=a1c0845c-24a5-47a4-8b93-0ce1d065029b | method=POST | path=/ai/advice | status=200 | duration_ms=8074
+2026-04-14 15:57:54,157 | INFO | werkzeug | 192.168.0.11 - - [14/Apr/2026 15:57:54] "POST /ai/advice HTTP/1.1" 200 -
+2026-04-16 15:20:45,589 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 15:20:45,589 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 15:30:50,214 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 15:30:50,214 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 15:39:40,867 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 15:39:40,867 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 15:45:27,308 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 15:45:27,308 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 15:45:42,747 | INFO | smartspend.app | Request started | request_id=4a22957e-6492-4cb5-80d4-077e1cef9389 | method=GET | path=/ | ip=127.0.0.1
+2026-04-16 15:45:42,747 | INFO | smartspend.app | Request started | request_id=4a22957e-6492-4cb5-80d4-077e1cef9389 | method=GET | path=/ | ip=127.0.0.1
+2026-04-16 15:45:42,747 | INFO | smartspend.app | Request finished | request_id=4a22957e-6492-4cb5-80d4-077e1cef9389 | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:45:42,747 | INFO | smartspend.app | Request finished | request_id=4a22957e-6492-4cb5-80d4-077e1cef9389 | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:45:42,747 | INFO | werkzeug | 127.0.0.1 - - [16/Apr/2026 15:45:42] "GET / HTTP/1.1" 200 -
+2026-04-16 15:48:46,452 | INFO | smartspend.app | Request started | request_id=28c57807-e860-4e08-b381-5d45afe5d50f | method=GET | path=/ | ip=192.168.0.6
+2026-04-16 15:48:46,452 | INFO | smartspend.app | Request started | request_id=28c57807-e860-4e08-b381-5d45afe5d50f | method=GET | path=/ | ip=192.168.0.6
+2026-04-16 15:48:46,452 | INFO | smartspend.app | Request finished | request_id=28c57807-e860-4e08-b381-5d45afe5d50f | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:48:46,452 | INFO | smartspend.app | Request finished | request_id=28c57807-e860-4e08-b381-5d45afe5d50f | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:48:46,453 | INFO | werkzeug | 192.168.0.6 - - [16/Apr/2026 15:48:46] "GET / HTTP/1.1" 200 -
+2026-04-16 15:50:44,922 | INFO | smartspend.app | Request started | request_id=6993b856-b0d0-4b2d-9edc-8db21b0b4d32 | method=GET | path=/ | ip=192.168.0.6
+2026-04-16 15:50:44,922 | INFO | smartspend.app | Request started | request_id=6993b856-b0d0-4b2d-9edc-8db21b0b4d32 | method=GET | path=/ | ip=192.168.0.6
+2026-04-16 15:50:44,923 | INFO | smartspend.app | Request finished | request_id=6993b856-b0d0-4b2d-9edc-8db21b0b4d32 | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:50:44,923 | INFO | smartspend.app | Request finished | request_id=6993b856-b0d0-4b2d-9edc-8db21b0b4d32 | method=GET | path=/ | status=200 | duration_ms=0
+2026-04-16 15:50:44,923 | INFO | werkzeug | 192.168.0.6 - - [16/Apr/2026 15:50:44] "GET / HTTP/1.1" 200 -
+2026-04-16 15:51:14,086 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 15:51:14,086 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 15:56:37,628 | INFO | smartspend.app | Request started | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | method=POST | path=/ai/advice | ip=192.168.0.6
+2026-04-16 15:56:37,628 | INFO | smartspend.app | Request started | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | method=POST | path=/ai/advice | ip=192.168.0.6
+2026-04-16 15:56:37,630 | WARNING | smartspend.app | Auth verification failed | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | path=/ai/advice
+2026-04-16 15:56:37,630 | WARNING | smartspend.app | Auth verification failed | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | path=/ai/advice
+2026-04-16 15:56:37,630 | INFO | smartspend.app | Request finished | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | method=POST | path=/ai/advice | status=401 | duration_ms=2
+2026-04-16 15:56:37,630 | INFO | smartspend.app | Request finished | request_id=1139ff60-c8bf-4ec1-a46b-c1599819b924 | method=POST | path=/ai/advice | status=401 | duration_ms=2
+2026-04-16 15:56:37,631 | INFO | werkzeug | 192.168.0.6 - - [16/Apr/2026 15:56:37] "[31m[1mPOST /ai/advice HTTP/1.1[0m" 401 -
+2026-04-16 16:19:05,983 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.6:5001
+2026-04-16 16:19:05,983 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-16 16:28:24,341 | INFO | smartspend.app | Request started | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | method=POST | path=/ai/advice | ip=192.168.0.6
+2026-04-16 16:28:24,341 | INFO | smartspend.app | Request started | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | method=POST | path=/ai/advice | ip=192.168.0.6
+2026-04-16 16:28:24,793 | INFO | smartspend.audit | AI_REQUEST | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | email=anaszhumabay@gmail.com | question=Какой у меня самый большой риск по расходам? | top_category=Shopping | savings_rate=87 | recurring_total=14980.0
+2026-04-16 16:28:33,354 | INFO | smartspend.audit | AI_RESPONSE | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | reply_length=460
+2026-04-16 16:28:33,358 | INFO | smartspend.app | Request finished | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | method=POST | path=/ai/advice | status=200 | duration_ms=9016
+2026-04-16 16:28:33,358 | INFO | smartspend.app | Request finished | request_id=5ed6fed3-33cc-4275-9f3f-aa8b67d190d5 | method=POST | path=/ai/advice | status=200 | duration_ms=9016
+2026-04-16 16:28:33,363 | INFO | werkzeug | 192.168.0.6 - - [16/Apr/2026 16:28:33] "POST /ai/advice HTTP/1.1" 200 -
+2026-04-17 15:04:23,047 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.119.39:5001
+2026-04-17 15:04:23,047 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-17 15:05:11,236 | INFO | smartspend.app | Request started | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:05:11,236 | INFO | smartspend.app | Request started | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:05:13,181 | INFO | smartspend.audit | AI_REQUEST | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | email=anaszhumabay@gmail.com | question=Какой у меня самый большой риск по расходам? | top_category=Shopping | savings_rate=87 | recurring_total=14980.0
+2026-04-17 15:05:22,235 | INFO | smartspend.audit | AI_RESPONSE | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | uid=HyLeELDf0RSwIaz8hcIMRKehGu02 | reply_length=545
+2026-04-17 15:05:22,238 | INFO | smartspend.app | Request finished | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | method=POST | path=/ai/advice | status=200 | duration_ms=11002
+2026-04-17 15:05:22,238 | INFO | smartspend.app | Request finished | request_id=9709c6ed-4f4b-4f65-9029-df32b0cc18dd | method=POST | path=/ai/advice | status=200 | duration_ms=11002
+2026-04-17 15:05:22,239 | INFO | werkzeug | 10.0.119.39 - - [17/Apr/2026 15:05:22] "POST /ai/advice HTTP/1.1" 200 -
+2026-04-17 15:10:24,978 | INFO | smartspend.app | Request started | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:10:24,978 | INFO | smartspend.app | Request started | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:10:25,008 | INFO | smartspend.audit | AI_REQUEST | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | uid=n8f3xNkkaAWeHBuyh0UavgABYml2 | email=aaa@gmail.com | question=Какой у меня самый большой риск по расходам? | top_category=Food | savings_rate=82 | recurring_total=0.0
+2026-04-17 15:10:32,910 | INFO | smartspend.audit | AI_RESPONSE | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | uid=n8f3xNkkaAWeHBuyh0UavgABYml2 | reply_length=529
+2026-04-17 15:10:32,911 | INFO | smartspend.app | Request finished | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | method=POST | path=/ai/advice | status=200 | duration_ms=7933
+2026-04-17 15:10:32,911 | INFO | smartspend.app | Request finished | request_id=db1111e1-9b56-4e9d-88ba-a512b88280a9 | method=POST | path=/ai/advice | status=200 | duration_ms=7933
+2026-04-17 15:10:32,912 | INFO | werkzeug | 10.0.119.39 - - [17/Apr/2026 15:10:32] "POST /ai/advice HTTP/1.1" 200 -
+2026-04-17 15:18:26,159 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.119.39:5001
+2026-04-17 15:18:26,159 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-04-17 15:19:02,726 | INFO | smartspend.app | Request started | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:19:02,726 | INFO | smartspend.app | Request started | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | method=POST | path=/ai/advice | ip=10.0.119.39
+2026-04-17 15:19:03,263 | INFO | smartspend.audit | AI_REQUEST | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | uid=n8f3xNkkaAWeHBuyh0UavgABYml2 | email=aaa@gmail.com | question=Какой у меня самый большой риск по расходам? | top_category=Food | savings_rate=83 | recurring_total=0.0
+2026-04-17 15:19:10,994 | INFO | smartspend.audit | AI_RESPONSE | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | uid=n8f3xNkkaAWeHBuyh0UavgABYml2 | reply_length=478
+2026-04-17 15:19:10,995 | INFO | smartspend.app | Request finished | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | method=POST | path=/ai/advice | status=200 | duration_ms=8268
+2026-04-17 15:19:10,995 | INFO | smartspend.app | Request finished | request_id=65cc596a-a878-42e8-a21f-aa2ff032ecd9 | method=POST | path=/ai/advice | status=200 | duration_ms=8268
+2026-04-17 15:19:10,996 | INFO | werkzeug | 10.0.119.39 - - [17/Apr/2026 15:19:10] "POST /ai/advice HTTP/1.1" 200 -
+2026-04-22 18:22:25,313 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.5:5001
+2026-04-22 18:22:25,313 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
