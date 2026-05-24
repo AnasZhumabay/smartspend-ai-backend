@@ -18,7 +18,7 @@ def build_prompt(question, total_balance, total_income, total_expense, top_categ
     tx_block = "\n".join(lines) if lines else "No recent transactions."
 
     return f"""
-You are SmartSpend AI, a premium financial adviser inside a personal finance app.
+You are BudgetGoal AI, a premium financial adviser inside a personal finance app.
 
 User question:
 {question}
@@ -42,7 +42,7 @@ Rules:
 
 @app.route("/")
 def home():
-    return {"message": "SmartSpend Gemini backend is running"}
+    return {"message": "BudgetGoal Gemini backend is running"}
 
 @app.route("/ai/advice", methods=["POST"])
 def ai_advice():
